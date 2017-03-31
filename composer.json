@@ -1,0 +1,32 @@
+{
+    "name": "locustv2/yii2-encode-url-rule",
+    "description": "Makes the encoding of query parameters easier when creating urls.",
+    "keywords": ["yii2", "encode", "url", "rule", "array"],
+    "homepage": "https://github.com/locustv2/",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Yuv Joodhisty",
+            "email": "locustv2@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/locustv2/yii2-encode-url-ruler/issues?state=open",
+        "wiki": "https://github.com/locustv2/yii2-encode-url-ruler/wiki",
+        "source": "https://github.com/locustv2/yii2-encode-url-ruler"
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0.4"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "locustv2\\component\\" : ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
