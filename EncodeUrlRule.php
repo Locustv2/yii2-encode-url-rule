@@ -1,6 +1,11 @@
 <?php
+/**
+ * @link https://github.com/Locustv2/yii2-encode-url-rule
+ * @copyright Copyright (c) 2017 locustv2
+ * @license https://github.com/Locustv2/yii2-encode-url-rule/blob/master/LICENSE.md
+ */
 
-namespace weblement\components;
+namespace locustv2\components;
 
 use yii;
 use yii\web\UrlRule;
@@ -49,7 +54,7 @@ use yii\helpers\Json;
  *     var_dump(Yii::$app->request->get()); // contains all get query parameters including `enc`
  * }
  * ```
- * 
+ *
  * @author Yuv Joodhisty <locustv2@gmail.com>
  * @since 1.0
  */
